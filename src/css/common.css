@@ -16,3 +16,52 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  align-items:center;
+}
+
+.field:not(:last-child) {
+  margin-right: 15px;
+}
+
+.field {
+  display: inline-block;
+  width: 140px;
+  height: 40px;
+  border-radius: 8px;
+
+  background-color: blanchedalmond;
+}
+
+.value {
+  color: blue;
+  margin-right: 6px;
+}
+
+.label {
+  color: blue;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p + input {
+  width: 240px;
+  height: 40px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+input + button {
+  width: 100px;
+  height: 40px;
+  background-color: blanchedalmond;
+  color: blue;
+  border-radius: 8px;
+}
