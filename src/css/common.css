@@ -16,3 +16,21 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer{
+  display: flex;
+}
+
+.field{
+  padding: 5px;
+  text-align: center;
+  color: tomato;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 2;
+  text-transform: uppercase;
+}
+.label{
+  display: block;
+  text-decoration: overline;
+}
