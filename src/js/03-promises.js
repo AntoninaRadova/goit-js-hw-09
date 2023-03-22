@@ -39,7 +39,5 @@ form.addEventListener('submit', evt => {
           `❌ Rejected promise ${position} in ${delay}ms`
         );
       });
-
-  }
-  
+  } 
 });
