@@ -74,5 +74,4 @@ function convertMs(ms) {
 
 function addLeadinZero(value) {
   return String(value).padStart(2, '0');
-
 }
