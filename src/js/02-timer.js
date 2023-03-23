@@ -1,8 +1,7 @@
-import flatpickr from "flatpickr";
-
-import "flatpickr/dist/flatpickr.min.css";
-
-import Notiflix from 'notiflix';
+import flatpickr from 'flatpickr';
+import 'flatpickr/dist/flatpickr.min.css';
+//require('flatpickr/dist/themes/dark.css');
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const refs = {
     btnStart: document.querySelector('[data-start]'),
