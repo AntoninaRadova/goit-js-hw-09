@@ -24,13 +24,14 @@ img {
 .field{
   padding: 8px;
   text-align: center;
-  color: blue;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 2;
   text-transform: uppercase;
+  color: blue;
 }
+
 .label{
   display: block;
-  text-decoration: overline;
+  //text-decoration: overline;
 }
