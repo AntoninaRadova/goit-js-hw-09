@@ -22,10 +22,10 @@ img {
 }
 
 .field{
-  padding: 5px;
+  padding: 8px;
   text-align: center;
-  color: tomato;
-  font-size: 13px;
+  color: blue;
+  font-size: 12px;
   font-weight: 700;
   line-height: 2;
   text-transform: uppercase;
