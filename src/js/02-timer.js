@@ -1,7 +1,8 @@
-import flatpickr from 'flatpickr';
-import 'flatpickr/dist/flatpickr.min.css';
-//require('flatpickr/dist/themes/dark.css');
-import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import flatpickr from "flatpickr";
+
+import "flatpickr/dist/flatpickr.min.css";
+
+import Notiflix from 'notiflix';
 
 const refs = {
     btnStart: document.querySelector('[data-start]'),
@@ -28,10 +29,8 @@ const options = {
         } else {
             refs.btnStart.disabled = false;
         }
-        refs.btnStart.addEventListener('click', onStart);
-        
-    }
-        
+        refs.btnStart.addEventListener('click', onStart);      
+    }      
 }
 
 flatpickr("#datetime-picker", options);
@@ -58,7 +57,7 @@ function onStart() {
 }
 
 function convertMs(ms) {
-  // Number of milliseconds per unit of time
+
   const second = 1000;
   const minute = second * 60;
   const hour = minute * 60;
